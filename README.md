@@ -1,20 +1,19 @@
-# 📧 Email Automation Tool
+# Email Automation Tool
 
 > A Python tool to send and schedule Gmail messages securely using App Passwords, `smtplib`, and `schedule` for automated email workflows.
 
----
 
-## 📝 Project Description
+## Project Description
 
 **Email Automation Tool** is a lightweight Python-based application that allows users to send and schedule Gmail messages directly from the terminal.
 
-The project uses:
+The project uses :
 
 * `smtplib` for secure Gmail SMTP email delivery
 * `schedule` for automated email scheduling
 * Built-in validation and error handling for reliable workflows
 
-The tool provides a simple menu-driven interface where users can:
+The tool provides a simple menu-driven interface where users can :
 
 * Send emails instantly
 * Schedule emails for a specific time
@@ -24,46 +23,42 @@ The tool provides a simple menu-driven interface where users can:
 
 It is designed as a simple automation utility for personal productivity, workflow automation, and Python learning projects.
 
----
 
-# 🚀 Features
+# Features
 
-✅ Send emails instantly through Gmail SMTP
-✅ Schedule emails using 24-hour time format
-✅ Secure authentication using Gmail App Passwords
-✅ Email address validation
-✅ Simple terminal-based menu system
-✅ Error handling for invalid inputs and authentication failures
-✅ Lightweight and beginner-friendly Python implementation
+- Send emails instantly through Gmail SMTP
+- Schedule emails using 24-hour time format
+- Secure authentication using Gmail App Passwords
+- Email address validation
+- Simple terminal-based menu system
+- Error handling for invalid inputs and authentication failures
+- Lightweight and beginner-friendly Python implementation
 
----
 
-# 🛠️ Requirements
+# Requirements
 
-Before running the project, make sure you have:
+Before running the project, make sure you have :
 
 * Python **3.7 or higher**
 * A Gmail account
 * Gmail **2-Step Verification enabled**
 * Gmail **App Password generated**
 
----
 
-# 📦 Installation
+# Installation
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/email-automation-tool.git
+git clone https://github.com/Abhinav-cloud482/email-automation-tool.git
 ```
 
-Move into the project folder:
+Move into the project folder :
 
 ```bash
 cd email-automation-tool
 ```
 
----
 
 ### 2. Install dependencies
 
@@ -71,13 +66,12 @@ cd email-automation-tool
 pip install schedule
 ```
 
----
 
-# ⚙️ Gmail App Password Setup
+# Gmail App Password Setup
 
 This tool does **not** use your normal Gmail password.
 
-Follow these steps:
+Follow these steps :
 
 1. Open your Google Account settings.
 2. Enable **2-Step Verification**.
@@ -87,17 +81,16 @@ Follow these steps:
 
 Your Gmail password remains private and secure.
 
----
 
-# ▶️ Run the Application
+# Run the Application
 
-Start the tool:
+Start the tool :
 
 ```bash
 python email_automation.py
 ```
 
-Follow the terminal instructions:
+Follow the terminal instructions :
 
 1. Enter your Gmail address.
 2. Enter your Gmail App Password.
@@ -105,9 +98,8 @@ Follow the terminal instructions:
 4. Enter subject and message.
 5. Choose sending option.
 
----
 
-# 📋 Usage
+# Usage
 
 ## 1. Send Email Immediately
 
@@ -119,23 +111,22 @@ Select:
 
 Enter the required details and the email will be delivered instantly.
 
----
 
 ## 2. Schedule an Email
 
-Select:
+Select :
 
 ```
 2. Schedule Email
 ```
 
-Provide a time in:
+Provide a time in :
 
 ```
 HH:MM
 ```
 
-Example:
+Example :
 
 ```
 18:30
@@ -143,11 +134,10 @@ Example:
 
 The program will continue running and automatically send the email at the selected time.
 
----
 
 ## 3. Exit
 
-Select:
+Select :
 
 ```
 3. Exit
@@ -155,9 +145,8 @@ Select:
 
 The application closes safely.
 
----
 
-# 🖥️ Example Run
+# Example Run
 
 ```
 ============================================================
@@ -173,9 +162,8 @@ MAIN MENU
 Choose an option:
 ```
 
----
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 email-automation-tool/
@@ -185,20 +173,18 @@ email-automation-tool/
 └── requirements.txt        # Python dependencies
 ```
 
----
 
-# 🔒 Security Notes
+# Security Notes
 
 * Never use your normal Gmail password.
 * Always use a Gmail App Password.
 * Do not share your App Password publicly.
 * Consider using environment variables for production projects.
 
----
 
-# 📌 Future Improvements
+# Future Improvements
 
-Possible upgrades:
+Possible upgrades :
 
 * Add GUI interface using Tkinter
 * Add email templates
@@ -207,34 +193,27 @@ Possible upgrades:
 * Add logging system
 * Add encrypted credential storage
 
----
 
-# 📜 License
+# License
 
 This project is licensed under the **MIT License**.
 
 You are free to use, modify, and distribute this project.
 
----
 
-# 🤝 Contributing
+# Contributing
 
 Contributions are welcome!
 
-For major changes:
+For major changes :
 
 1. Open an issue first.
 2. Discuss the proposed improvement.
 3. Submit a pull request.
 
----
 
-# 👨‍💻 Author
+# Author
 
-Developed by **[Your Name Here]**
+Developed by **Abhianv Dixit**
 
 Python Developer | Automation & Workflow Tools
-
----
-
-⭐ If you find this project useful, consider giving it a star on GitHub!
